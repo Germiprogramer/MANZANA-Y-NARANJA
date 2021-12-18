@@ -22,8 +22,6 @@ def manzanas_naranjas():
     else:
         print ("Ha caído {} naranja en la casa".format(naranjas_caidas))
 
-
-
 manzanas_naranjas()
 
 
