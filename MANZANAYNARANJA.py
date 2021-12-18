@@ -10,6 +10,9 @@ def manzanas_naranjas():
     print("Introduce las distancias que hay entre cada par de naranjas separadas por un espacio.")
     orange = list(map(int, input().strip().split(' ')))
 
+    manzanas_caidas = sum([1 for f in apple if (f+a) >= s and (f+a) <= t])
+    naranjas_caidas = sum([1 for f in orange if (f+b) >= s and (f+b) <= t])
+
 manzanas_naranjas()
 
 
