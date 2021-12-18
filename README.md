@@ -3,4 +3,6 @@ HEMOS AYUDADO A NUESTRO QUERIDO GRANJERO SAM!!
 LA DIRECCION README DEL REPOSITORIO ES: https://github.com/claudiaalozano/MANZANA-Y-NARANJA.git
 
 ESTE ES EL (ULTIMO POR FIN) DIAGRAMA DE FLUJO:
+
+
 <img width="490" alt="2021-12-18 (5)" src="https://user-images.githubusercontent.com/91720991/146651649-9bdc21d4-0d2c-455e-893f-fe91813a8db6.png">
