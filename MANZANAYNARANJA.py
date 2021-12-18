@@ -13,6 +13,17 @@ def manzanas_naranjas():
     manzanas_caidas = sum([1 for f in apple if (f+a) >= s and (f+a) <= t])
     naranjas_caidas = sum([1 for f in orange if (f+b) >= s and (f+b) <= t])
 
+    if manzanas_caidas != 1:
+        print ("Han caído {} manzanas en la casa".format(manzanas_caidas))
+    else:
+        print ("Ha caído {} manzana en la casa".format(manzanas_caidas))
+    if naranjas_caidas != 1:   
+        print ("Ha caído {} naranja en la casa".format(naranjas_caidas))
+    else:
+        print ("Ha caído {} naranja en la casa".format(naranjas_caidas))
+
+
+
 manzanas_naranjas()
 
 
