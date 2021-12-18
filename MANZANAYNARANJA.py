@@ -1,1 +1,15 @@
+def manzanas_naranjas():
+    print("Elige el radio de la casa (dos números separados por un espacio, primero el menor valor)")
+    s,t = map(int, input().strip().split(' '))
+    print("Introduce la posición del manzano y del naranjo separadas por un espacio.")
+    a,b = map(int, input().strip().split(' '))
+    print("Introduce a la distancia a la que caen las manzanas del manzano y las naranjas del naranjo separadas por un espacio.")
+    m,n = map(int, input().strip().split(' '))
+    print("Introduce las distancias que hay entre cada par de manzanas separadas por un espacio.")
+    apple = list(map(int, input().strip().split(' ')))
+    print("Introduce las distancias que hay entre cada par de naranjas separadas por un espacio.")
+    orange = list(map(int, input().strip().split(' ')))
+
+manzanas_naranjas()
+
 
